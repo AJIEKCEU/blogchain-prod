@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8"/>
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="shortcut icon" href="local/templates/main/images/favicon.ico"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&amp;subset=cyrillic" rel="stylesheet">
+	<script src="local/templates/main/js/jquery.js"></script>
+	<link href="local/templates/main/css/main.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="main">
+    <header class="header compensate-for-scrollbar">
+        <div class="header__body">
+            <a class="header__logo" href="/">
+                <img class="header__logo-img" width="155" height="33" src="local/templates/main/images/logo.svg" alt="">
+            </a>
+            <nav class="nav header__nav">
+                <div class="nav__contacts"></div>
+                <div class="socials nav__socials">
+                    <a class="socials__link" href="#">
+                        <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-instagram"/></svg>
+                    </a>
+                    <a class="socials__link" href="#">
+                        <svg class="icon icon--size-xxl"><use href="local/templates/main/images/sprite.svg#icon-facebook"/></svg>
+                    </a>
+                </div>
+                <ul class="menu nav__menu">
+                    <li class="menu__item">
+                        <div class="menu__link-wrp">
+                            <a class="menu__link menu__link--active" href="#">Как работает</a>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="menu__link-wrp">
+                            <a class="menu__link" href="#">Инструменты</a>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <div class="menu__link-wrp">
+                            <a class="menu__link" href="#">Тарифы</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="nav__btn"></div>
+            </nav>
+            <div class="header__aside">
+                <div class="nav-shadow"></div>
+                <div class="js-toggle-menu header__toggle-menu">
+                    <div class="toggle-menu">
+                        <span class="toggle-menu__center"></span>
+                    </div>
+                </div>
+                <div class="header-personal header__personal">
+                    <a class="header-personal__link" href="#">Войти</a>
+                    <a class="btn btn--size-m btn--theme-accent" href="#" data-da="nav__btn, 0, 1199">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        .temp-menu {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 150px;
+        }
+        .temp-menu__item {
+            margin-bottom: 15px;
+        }
+        .temp-menu__link {
+            font-size: 20px;
+        }
+    </style>
+    <div class="main__container main__body">
+        <ul class="temp-menu">
+            <li class="temp-menu__item">
+                <a class="temp-menu__link" href="main.html">Главная</a>
+            </li>
+        </ul>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <a class="footer__logo-link" href="#">
+                    <svg class="icon footer__logo"><use href="local/templates/main/images/sprite.svg#icon-logo"/></svg>
+                </a>
+                <div class="footer__nav">
+                    <a class="footer__nav-link" href="#">Как работает</a>
+                    <a class="footer__nav-link" href="#">Инструменты</a>
+                    <a class="footer__nav-link" href="#">Тарифы</a>
+                </div>
+            </div>
+            <img src="local/templates/main/images/logo-footer.svg" alt="">
+            <div class="footer__bottom">
+                <span>Политика конфиденциальности</span>
+                <span>© 2024 Blogchain. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <div class="js-up">
+        <svg class="icon icon--size-xxl">
+            <use href="local/templates/main/images/sprite.svg#icon-arrow-up"/>
+        </svg>
+    </div>
+    <script src="local/templates/main/js/main.min.js"></script>
+</div>
+</body>
+</html>
