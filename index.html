@@ -14,44 +14,39 @@
 <div class="main">
     <header class="header compensate-for-scrollbar">
         <div class="header__body">
-            <a class="header__logo" href="/">
+            <a class="header__logo js-anchor" href="#anchor_1">
                 <img class="header__logo-img" width="155" height="33" src="local/templates/main/images/logo.svg" alt="">
             </a>
             <nav class="nav header__nav">
-                <div class="nav__btn"></div>
                 <ul class="menu nav__menu">
                     <li class="menu__item">
                         <div class="menu__link-wrp">
-                            <a class="menu__link menu__link--active" href="#">Как работает</a>
+                            <a class="menu__link js-anchor" href="#anchor_2">Как работает</a>
                         </div>
                     </li>
                     <li class="menu__item">
                         <div class="menu__link-wrp">
-                            <a class="menu__link" href="#">Инструменты</a>
-                        </div>
-                    </li>
-                    <li class="menu__item">
-                        <div class="menu__link-wrp">
-                            <a class="menu__link" href="#">Тарифы</a>
+                            <a class="menu__link js-anchor" href="#anchor_3">Инструменты</a>
                         </div>
                     </li>
                 </ul>
 
+                <div class="nav__btn"></div>
             </nav>
             <div class="header__aside">
-                <div class="nav-shadow"></div>
                 <div class="js-toggle-menu header__toggle-menu">
                     <div class="toggle-menu">
                         <span class="toggle-menu__center"></span>
                     </div>
                 </div>
                 <div class="header-personal header__personal">
-                    <a class="header-personal__link" href="#" data-da="nav__btn, 0, 1199">Войти</a>
-                    <a class="btn btn--size-m btn--theme-accent" href="#" data-da="nav__btn, 1, 1199">Регистрация</a>
+                    <a class="header-personal__link" href="#" data-da="nav__btn, 1, 1199">Войти</a>
+                    <a class="btn btn--size-m btn--theme-accent" href="#" data-da="nav__btn, 0, 1199">Регистрация</a>
                 </div>
             </div>
         </div>
     </header>
+    <div class="nav-shadow"></div>
     <style>
         .temp-menu {
             max-width: 700px;
